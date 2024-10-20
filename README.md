@@ -12,14 +12,14 @@
 #### Run
 
 * Locally:
-```
-python3 spark_app/spark_main.py
-```
+  ```
+  > python3 spark_app/spark_main.py
+  ```
 
 * Using `spark-submit`:
-```
-spark-submit spark_app/spark_main.py
-```
+  ```
+  > spark-submit spark_app/spark_main.py
+  ```
 
 
 #### Packaging
