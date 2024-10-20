@@ -1,4 +1,3 @@
-from spark_app.util.spark_util import multiply
 from util import spark_util
 from pyspark.sql import functions as F
 
@@ -16,7 +15,7 @@ def main():
     ], ("id", "v"))
     df.show()
     df \
-        .withColumn("v1", multiply(F.col("v"), 2)) \
+        .withColumn("v1", spark_util.multiply(F.col("v"), 2)) \
         .show()
 
 
