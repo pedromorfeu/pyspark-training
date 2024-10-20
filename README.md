@@ -21,3 +21,7 @@ python3 spark_app/spark_main.py
 spark-submit spark_app/spark_main.py
 ```
 
+
+#### Packaging
+
+Specify `--py-files` option in `spark-submit` command.
